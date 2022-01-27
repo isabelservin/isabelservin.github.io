@@ -1,0 +1,42 @@
+body{
+    line-height: 1.5;
+    margin: 0;
+}
+
+.text-format{
+    text-transform: lowercase;
+    font-variant: small-caps;
+}
+
+nav{
+    background: rgb(168, 192, 191);
+    padding: 0.2rem 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav .current > a{
+    color:rgb(150, 128, 101);
+}
+
+header{
+    background: rgb(80, 143, 129);
+    color: #fff;
+    text-align: center;
+    padding: .5rem;
+}
+
+main{
+    padding: 2rem;
+}
